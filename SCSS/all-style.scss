@@ -1,0 +1,29 @@
+@import "vars";
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  // font-family: $main-font;
+  font-size: 18px;
+  line-height: 21px;
+  background: #ffffff;
+}
+
+.container {
+  max-width: 1230px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 15px;
+}
+
+//Page style
+@import "header";

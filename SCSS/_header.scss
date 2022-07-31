@@ -1,0 +1,82 @@
+@import "vars";
+
+.header {
+  min-height: 90px;
+  background: $color-white;
+}
+
+.header__logo {
+  width: 75px;
+  height: 21.65px;
+  margin: 34.19px 240px 34.19px 75px;
+}
+
+.header__inner {
+  font-family: $main-font;
+  font-weight: $bold;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.menu {
+  margin: 8px 83.53px 16px 28.47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+
+  &__item + &__item {
+    margin-left: 50px;
+  }
+
+  &__item {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $color-green;
+  }
+}
+
+.header__btns {
+  margin: 13px 0 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn__demo {
+  margin-right: 29px;
+  padding: 10px 15px;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: $color-white;
+  background-color: $bg-green;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.btn__login {
+  display: flex;
+  align-items: center;
+  gap: 5.13px;
+  margin-right: 42px;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: $color-green;
+  text-decoration: none;
+}
+
+.btn__eng {
+  font-style: normal;
+  font-size: 13px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #214e41;
+}
